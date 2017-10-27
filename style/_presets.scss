@@ -13,7 +13,9 @@ $orange: #ffae00;
 //Mobile Mix-ins
 @mixin mobile-text {
   margin: 0 20px;
+  padding-top: 25px;
     h2 {
+      padding-bottom: 10px;
       color: $text-black;
       font-family: $font-montserrat;
       font-size: 24px;
@@ -21,6 +23,7 @@ $orange: #ffae00;
       letter-spacing: 1.2px; 
     }
     h3 {
+      padding: 10px 0;
       color: $text-black;
       font-family: $font-montserrat;
       font-weight: 500;
@@ -29,6 +32,7 @@ $orange: #ffae00;
       letter-spacing: 1px;
     }
     h4 {
+      padding-top: 5px;
       color: $text-black;
       font-family: $font-lora;
       font-size: 21px;
@@ -37,6 +41,7 @@ $orange: #ffae00;
       letter-spacing: 1px;
     }
     p {
+      padding-bottom: 10px;
       color: $text-black;
       font-family: $font-lora;
       font-size: 16px;
