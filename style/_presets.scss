@@ -10,19 +10,24 @@ $bar-white: #ffffff;
 $footer-black: #313131;
 $grey: #ebebeb;
 $orange: #ffae00;
-//Mobile Mix-ins
+/*
+*Mobile Mix-ins
+*(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
+*/
 @mixin mobile-text {
   margin: 0 20px;
   padding-top: 25px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
     h2 {
       padding-bottom: 10px;
       color: $text-black;
       font-family: $font-montserrat;
       font-size: 24px;
       line-height: 24px;
-      letter-spacing: 1.2px; 
+      letter-spacing: 1.2px;
     }
     h3 {
+      /*Use for medium titles on speakers tickets and sponsers*/
       padding: 10px 0;
       color: $text-black;
       font-family: $font-montserrat;
@@ -32,6 +37,7 @@ $orange: #ffae00;
       letter-spacing: 1px;
     }
     h4 {
+      /*Use for small titles on the home page and about page*/
       padding-top: 5px;
       color: $text-black;
       font-family: $font-lora;
@@ -41,6 +47,7 @@ $orange: #ffae00;
       letter-spacing: 1px;
     }
     p {
+      /*Used for the majority of the paragraph tags*/
       padding-bottom: 10px;
       color: $text-black;
       font-family: $font-lora;
@@ -49,6 +56,7 @@ $orange: #ffae00;
       letter-spacing: 0.8px;
     }
     li {
+      /*Used for the list iteams on the sponser page*/
       color: $text-black;
       font-family: $font-montserrat;
       font-size: 18px;
