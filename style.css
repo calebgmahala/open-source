@@ -49,5 +49,43 @@ table {
 *Mobile Mix-ins
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
+header {
+  position: absolute;
+  height: 97px;
+  width: 100%;
+  border-bottom: 5px solid #ffffff; }
+  header h2 {
+    display: inline-block;
+    width: 233px;
+    margin: 36px 0 0 14px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13.6px;
+    font-weight: 800;
+    line-height: 1.38;
+    letter-spacing: 1.4px;
+    color: #f5f5f5; }
+
+.hero {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  padding: 85px 20px;
+  background-image: url(images/hero.jpg);
+  background-position: left bottom; }
+  .hero h1 {
+    width: 240px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    font-family: "Lora", serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    color: #ffae00; }
+  .hero div {
+    height: 5px;
+    width: 108px;
+    background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

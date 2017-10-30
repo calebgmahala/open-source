@@ -1,0 +1,42 @@
+header {
+  position: absolute;
+  height: 97px;
+  width: 100%;
+  border-bottom: 5px solid $bar-white;
+  h2 {
+    display: inline-block;
+    width: 233px;
+    margin: 36px 0 0 14px;
+    text-transform: uppercase;
+    font-family: $font-montserrat;
+	  font-size: 13.6px;
+	  font-weight: 800;
+	  line-height: 1.38;
+	  letter-spacing: 1.4px;
+    color: $text-white;
+  }
+}
+.hero {
+  position: absolute; //Used to put Hero on top of header so they can share the same image
+  z-index: -1; //Used to go below the header
+  top: 0;
+  width: 100%;
+  padding: 85px 20px;
+  background-image: url(images/hero.jpg);
+  background-position: left bottom;
+  h1 {
+    width: 240px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+	  font-family: $font-lora;
+	  font-size: 32px;
+	  font-weight: bold;
+	  letter-spacing: 1.6px;
+    color: $orange;
+  }
+  div {
+    height: 5px;
+    width: 108px;
+    background-color: $bar-white;
+  }
+}
