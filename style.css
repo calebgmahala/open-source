@@ -192,5 +192,23 @@ header {
     color: #ffae00;
     padding-top: 0;
     padding-bottom: 25px; }
+  .tickets-text form {
+    height: 54px;
+    width: 83px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px; }
+    .tickets-text form select {
+      vertical-align: top;
+      height: 100%;
+      width: 100%;
+      border: 0;
+      background-color: white;
+      color: #101010;
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 2.25;
+      letter-spacing: 1.2px; }
 
 /*# sourceMappingURL=style.css.map */
