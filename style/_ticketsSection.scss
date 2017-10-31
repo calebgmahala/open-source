@@ -38,4 +38,7 @@
   nav:hover {
     background: linear-gradient(white, lightgrey);
   }
+  nav:active {
+    background: linear-gradient(white, grey);
+  }
 }

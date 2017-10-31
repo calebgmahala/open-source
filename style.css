@@ -137,5 +137,7 @@ header {
       line-height: 54px; }
   .tickets nav:hover {
     background: linear-gradient(white, lightgrey); }
+  .tickets nav:active {
+    background: linear-gradient(white, grey); }
 
 /*# sourceMappingURL=style.css.map */
