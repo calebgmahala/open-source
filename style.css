@@ -78,7 +78,7 @@ header {
     header nav ul {
       display: none; }
 
-.hero {
+.hero, .hero-index {
   z-index: -1;
   top: 0;
   width: 95%;
@@ -87,19 +87,22 @@ header {
   background-image: url(images/hero.jpg);
   background-position: left bottom;
   background-blend-mode: multiply; }
-  .hero h1 {
+  .hero h1, .hero-index h1 {
     width: 240px;
     margin-top: 85px;
     margin-bottom: 30px;
     font-family: "Lora", serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 1.6px;
     color: #ffae00; }
-  .hero div {
+  .hero div, .hero-index div {
     height: 5px;
     width: 108px;
     background-color: #ffffff; }
+
+.hero-index h1 {
+  font-size: 32px; }
 
 .tickets {
   display: block;
@@ -139,5 +142,55 @@ header {
     background: linear-gradient(white, lightgrey); }
   .tickets nav:active {
     background: linear-gradient(white, grey); }
+
+.tickets-text {
+  margin: 0 20px;
+  padding-top: 25px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  border-bottom: 2px solid #ffae00; }
+  .tickets-text h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .tickets-text h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .tickets-text h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .tickets-text p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .tickets-text li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px; }
+  .tickets-text .money {
+    color: #ffae00;
+    padding-top: 0;
+    padding-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */

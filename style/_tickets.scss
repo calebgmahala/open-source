@@ -1,0 +1,9 @@
+.tickets-text {
+  @include mobile-text;
+  border-bottom: 2px solid $orange;
+  .money {
+    color: $orange;
+    padding-top: 0;
+    padding-bottom: 25px;
+  }
+}
