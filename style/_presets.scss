@@ -20,7 +20,7 @@ $dark-orange: #c47c09;
   padding-top: 25px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
     h2 {
-      padding-bottom: 10px;
+      padding-bottom: 15px;
       color: $text-black;
       font-family: $font-montserrat;
       font-size: 24px;
@@ -29,7 +29,7 @@ $dark-orange: #c47c09;
     }
     h3 {
       /*Use for medium titles on speakers tickets and sponsers*/
-      padding: 10px 0;
+      padding: 15px 0;
       color: $text-black;
       font-family: $font-montserrat;
       font-weight: 500;
@@ -39,7 +39,7 @@ $dark-orange: #c47c09;
     }
     h4 {
       /*Use for small titles on the home page and about page*/
-      padding-top: 5px;
+      padding-top: 10px;
       color: $text-black;
       font-family: $font-lora;
       font-size: 21px;
@@ -49,7 +49,7 @@ $dark-orange: #c47c09;
     }
     p {
       /*Used for the majority of the paragraph tags*/
-      padding-bottom: 10px;
+      padding-bottom: 15px;
       color: $text-black;
       font-family: $font-lora;
       font-size: 16px;

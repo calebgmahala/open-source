@@ -1,0 +1,29 @@
+.tickets-text {
+  @include mobile-text;
+  border-bottom: 2px solid $orange;
+  .money {
+    color: $orange;
+    padding-top: 0;
+    padding-bottom: 25px;
+  }
+  form {
+    height: 54px;
+    width: 83px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    select {
+      vertical-align: top;
+      height: 100%;
+      width: 100%;
+      border: 0;
+      background-color: white;
+      color: $text-black;
+      font-family: $font-montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 2.25;
+      letter-spacing: 1.2px;
+    }
+  }
+}
