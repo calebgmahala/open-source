@@ -31,9 +31,8 @@ header {
   }
 }
 .hero {
-  position: absolute; //Used to put Hero on top of header so they can share the same image
   z-index: -1; //Used to go below the header
-  top: 0;
+  top: 0;//Used to put Hero on top of header so they can share the same image
   width: 95%;
   padding: 85px 0 85px 5%;
   background-color: grey;//Set to grey to darken the background image with blend mode
