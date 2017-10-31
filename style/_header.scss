@@ -1,0 +1,57 @@
+header {
+  position: absolute;
+  height: 97px;
+  width: 100%;
+  border-bottom: 5px solid $bar-white;
+  h2 {
+    display: inline-block;
+    width: 233px;
+    margin: 36px 0 0 14px;
+    text-transform: uppercase;
+    font-family: $font-montserrat;
+	  font-size: 13.6px;
+	  font-weight: 800;
+	  line-height: 1.38;
+	  letter-spacing: 1.4px;
+    color: $text-white;
+  }
+  nav {
+    float: right;
+    height: 50px;
+    width: 43px;
+    margin-top: 28px;
+    margin-right: 5px;
+    display: inline-block;
+    background-image: url(images/bars.png);
+    background-position: center;
+    background-size: 100% 100%;
+    ul {
+      display: none;
+    }
+  }
+}
+.hero {
+  z-index: -1; //Used to go below the header
+  top: 0;//Used to put Hero on top of header so they can share the same image
+  width: 95%;
+  padding: 85px 0 85px 5%;
+  background-color: grey;//Set to grey to darken the background image with blend mode
+  background-image: url(images/hero.jpg);
+  background-position: left bottom;
+  background-blend-mode: multiply;//Used to darken the image
+  h1 {
+    width: 240px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+	  font-family: $font-lora;
+	  font-size: 32px;
+	  font-weight: bold;
+	  letter-spacing: 1.6px;
+    color: $orange;
+  }
+  div {
+    height: 5px;
+    width: 108px;
+    background-color: $bar-white;
+  }
+}
