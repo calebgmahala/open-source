@@ -1,0 +1,26 @@
+.sponsers {
+  @include mobile-text;
+  width: auto;
+  h3 {
+    padding-top: 30px;
+    color: $orange;
+    font-family: $font-montserrat;
+	  font-size: 21px;
+	  font-weight: 500;
+	  line-height: 1.71;
+	  letter-spacing: 1px;
+  }
+  img {
+    padding: 0 9% 20px 0;
+    height: 40%;
+    width: 40%;
+  }
+  .bigger {
+    height: 60%;
+    width: 60%;
+  }
+  .mill {
+    height: 100%;
+    width: 100%;
+  }
+}

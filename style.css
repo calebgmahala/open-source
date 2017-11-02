@@ -211,4 +211,68 @@ header {
       line-height: 2.25;
       letter-spacing: 1.2px; }
 
+.sponsers {
+  margin: 0 20px;
+  padding-top: 25px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  width: auto; }
+  .sponsers h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .sponsers h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .sponsers h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .sponsers p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .sponsers li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px; }
+  .sponsers h3 {
+    padding-top: 30px;
+    color: #ffae00;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px; }
+  .sponsers img {
+    padding: 0 9% 20px 0;
+    height: 40%;
+    width: 40%; }
+  .sponsers .bigger {
+    height: 60%;
+    width: 60%; }
+  .sponsers .mill {
+    height: 100%;
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
