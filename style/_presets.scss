@@ -16,8 +16,7 @@ $dark-orange: #c47c09;
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
 @mixin mobile-text {
-  margin: 0 20px;
-  padding-top: 25px;
+  padding: 25px 20px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
     h2 {
       padding-bottom: 15px;
@@ -64,4 +63,14 @@ $dark-orange: #c47c09;
       line-height: 36px;
       letter-spacing: 0.9px;
     }
+}
+.white {
+  @include mobile-text;
+  h4 {
+    padding-bottom: 25px;
+  }
+}
+.grey {
+  @include mobile-text;
+  background-color: $grey;
 }

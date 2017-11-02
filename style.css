@@ -49,6 +49,97 @@ table {
 *Mobile Mix-ins
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
+.white {
+  padding: 25px 20px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
+  .white h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .white h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .white h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .white p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .white li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px; }
+  .white h4 {
+    padding-bottom: 25px; }
+
+.grey {
+  padding: 25px 20px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .grey h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .grey h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .grey h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .grey p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .grey li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px; }
+
 header {
   position: absolute;
   height: 97px;
@@ -173,8 +264,7 @@ header {
     background: linear-gradient(white, grey); }
 
 .tickets-text {
-  margin: 0 20px;
-  padding-top: 25px;
+  padding: 25px 20px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
   border-bottom: 2px solid #ffae00; }
   .tickets-text h2 {
@@ -240,8 +330,7 @@ header {
       letter-spacing: 1.2px; }
 
 .total {
-  margin: 0 20px;
-  padding-top: 25px;
+  padding: 25px 20px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
   margin: 0 10%; }
   .total h2 {
@@ -298,8 +387,7 @@ header {
     text-align: center; }
 
 .become-sponser {
-  margin: 0 20px;
-  padding-top: 25px;
+  padding: 25px 20px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
   .become-sponser h2 {
     padding-bottom: 15px;
@@ -362,8 +450,7 @@ header {
       background: linear-gradient(#ffae00, #313131); }
 
 .sponsers {
-  margin: 0 20px;
-  padding-top: 25px;
+  padding: 25px 20px;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
   width: auto; }
   .sponsers h2 {
