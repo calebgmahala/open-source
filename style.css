@@ -225,8 +225,7 @@ header {
     height: 54px;
     width: 83px;
     border: 2px solid black;
-    margin-bottom: 30px;
-    padding-left: 15px; }
+    margin-bottom: 30px; }
     .tickets-text form select {
       vertical-align: top;
       height: 100%;
