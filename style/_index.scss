@@ -1,3 +1,29 @@
+.become-sponser {
+  @include mobile-text;
+  nav {
+    height: 62px;
+    width: 80%;
+    margin: auto;
+    background-color: $orange;
+    a {
+      color: $text-white;
+      display: block;
+      font-family: $font-montserrat;
+	    font-size: 18px;
+	    font-weight: 700;
+	    line-height: 62px;
+	    letter-spacing: 0.9px;
+	    text-align: center;
+      text-decoration: none;
+    }
+    a:hover {
+      background: linear-gradient($orange, $dark-orange);
+    }
+    a:active {
+      background: linear-gradient($orange, $footer-black);
+    }
+  }
+}
 .sponsers {
   @include mobile-text;
   width: auto;

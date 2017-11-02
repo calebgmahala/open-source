@@ -239,6 +239,70 @@ header {
       line-height: 2.25;
       letter-spacing: 1.2px; }
 
+.become-sponser {
+  margin: 0 20px;
+  padding-top: 25px;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
+  .become-sponser h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .become-sponser h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .become-sponser h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .become-sponser p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .become-sponser li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px; }
+  .become-sponser nav {
+    height: 62px;
+    width: 80%;
+    margin: auto;
+    background-color: #ffae00; }
+    .become-sponser nav a {
+      color: #f5f5f5;
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 62px;
+      letter-spacing: 0.9px;
+      text-align: center;
+      text-decoration: none; }
+    .become-sponser nav a:hover {
+      background: linear-gradient(#ffae00, #c47c09); }
+    .become-sponser nav a:active {
+      background: linear-gradient(#ffae00, #313131); }
+
 .sponsers {
   margin: 0 20px;
   padding-top: 25px;
