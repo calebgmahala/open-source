@@ -1,4 +1,6 @@
 .footer{
-  @include mobile-text;
-  width: auto;
+  background-color: $footer-black;
+  width: 100%;
 }
+h3{color: $text-white}
+p{color: $text-white}
