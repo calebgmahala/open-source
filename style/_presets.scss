@@ -16,12 +16,13 @@ $dark-orange: #c47c09;
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
 @mixin mobile-text {
-  padding: 25px 20px;
+  padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
     h2 {
       padding-bottom: 15px;
       color: $text-black;
       font-family: $font-montserrat;
+      font-weight: 500;
       font-size: 24px;
       line-height: 24px;
       letter-spacing: 1.2px;
@@ -55,6 +56,9 @@ $dark-orange: #c47c09;
       line-height: 24px;
       letter-spacing: 0.8px;
     }
+    ul {
+      padding-bottom: 25px;
+    }
     li {
       /*Used for the list iteams on the sponser page*/
       color: $text-black;
@@ -62,6 +66,8 @@ $dark-orange: #c47c09;
       font-size: 18px;
       line-height: 36px;
       letter-spacing: 0.9px;
+      list-style: disc;
+      list-style-position: inside;
     }
 }
 .white {
@@ -73,4 +79,8 @@ $dark-orange: #c47c09;
 .grey {
   @include mobile-text;
   background-color: $grey;
+  img {
+    margin-left: -5%;
+    width: 110%;
+  }
 }
