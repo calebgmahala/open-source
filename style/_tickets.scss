@@ -26,3 +26,23 @@
     }
   }
 }
+.total {
+  @include mobile-text;
+  margin: 0 10%;
+  form {
+
+  }
+  input {
+    height: 59px;
+    width: 100%;
+    border: 0;
+    background-color: $orange;
+    color: $text-white;
+    font-family: $font-montserrat;
+	  font-size: 16px;
+	  font-weight: 500;
+	  line-height: 59px;
+  	letter-spacing: 0.8px;
+	  text-align: center;
+  }
+}
