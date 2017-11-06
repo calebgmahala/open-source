@@ -97,3 +97,68 @@ header {
     font-size: 32px;
   }
 }
+@media only screen and (min-width: 750px) {
+  header {
+    height: 114px;
+    h2 {
+      margin: 38px 0 0 58px;
+    }
+    nav {
+      height: 100%;
+      width: auto;
+      margin-top: 0;
+      margin-right: 0;
+      background-image: none;
+      ul {
+        opacity: 1;
+        position: static;
+        transition: none;
+        li {
+          padding-right: 54px;
+          display: inline-block;
+          visibility: visible;
+          height: auto;
+          a {
+            display: block;
+            color: $text-white;
+            font-family: $font-montserrat;
+	          font-size: 14px;
+	          font-weight: 500;
+	          line-height: 114px;
+	          letter-spacing: 1.4px;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    nav:hover {
+      ul {
+        opacity: 1;
+        transform: translateY(20px);
+        width: 80%;
+        li {
+          visibility: visible;
+          height: 47px;
+          width: 100%;
+          background-color: $bar-white;
+          border-bottom: 2px solid black;
+          a {
+            display: block;
+            color: $orange;
+            font-family: $font-montserrat;
+        	  font-size: 21px;
+        	  font-weight: 500;
+        	  line-height: 47px;
+        	  letter-spacing: 1px;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
+        li:last-of-type {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
