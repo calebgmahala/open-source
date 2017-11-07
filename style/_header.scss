@@ -97,35 +97,39 @@ header {
     font-size: 32px;
   }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
   header {
     height: 114px;
     h2 {
-      margin: 38px 0 0 58px;
+      font-size: 18px;
+      width: 308px;
+      margin: 38px 0 0 3%;
     }
     nav {
-      height: 100%;
-      width: auto;
+      height: auto;
+      width: 56%;
       margin-top: 0;
       margin-right: 0;
       background-image: none;
       ul {
+        display: flex;
+        justify-content: space-around;
         opacity: 1;
         position: static;
         transition: none;
         li {
-          padding-right: 54px;
           display: inline-block;
           visibility: visible;
           height: auto;
           a {
+            width: 100%;
             display: block;
             color: $text-white;
             font-family: $font-montserrat;
 	          font-size: 14px;
 	          font-weight: 500;
 	          line-height: 114px;
-	          letter-spacing: 1.4px;
+	          letter-spacing: 1px;
             text-align: center;
             text-decoration: none;
           }
@@ -134,25 +138,29 @@ header {
     }
     nav:hover {
       ul {
-        opacity: 1;
-        transform: translateY(20px);
-        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        transform: none;
+        width: auto;
         li {
-          visibility: visible;
-          height: 47px;
-          width: 100%;
-          background-color: $bar-white;
-          border-bottom: 2px solid black;
+          display: inline-block;
+          background-color: inherit;
+          height: auto;
+          width: auto;
+          border-bottom: none;
           a {
-            display: block;
-            color: $orange;
+            display: inline;
+            color: $text-white;
             font-family: $font-montserrat;
-        	  font-size: 21px;
-        	  font-weight: 500;
-        	  line-height: 47px;
-        	  letter-spacing: 1px;
+	          font-size: 14px;
+	          font-weight: 500;
+	          line-height: 114px;
+	          letter-spacing: 1px;
             text-align: center;
             text-decoration: none;
+          }
+          a:hover {
+            color: $orange;
           }
         }
         li:last-of-type {
@@ -160,5 +168,22 @@ header {
         }
       }
     }
+  }
+  .hero {
+    padding: 119px 0 206px 8%;
+    h1 {
+      margin-top: 150px;
+      margin-bottom: 50px;
+      font-size: 36px;
+      width: 80%;
+    }
+  }
+  .hero-index {
+    h1 {
+      font-size: 72px;
+    }
+  }
+  .is-on {
+      color: $orange !important;
   }
 }
