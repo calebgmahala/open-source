@@ -1,0 +1,10 @@
+.conference-locations{
+  @include mobile-text;
+  background-color:$orange;
+  h3{
+    font-weight: 700;
+  }
+    h4{
+      font-size: 18px;
+    }
+  }

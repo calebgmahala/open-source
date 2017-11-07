@@ -549,7 +549,7 @@ footer {
   background-color: #313131;
   width: 90%;
   height: 420px;
-  padding: 0 20px; }
+  padding: 0 5%; }
   footer h3 {
     color: #f5f5f5;
     font-family: "Montserrat", sans-serif;
@@ -571,5 +571,59 @@ footer {
   height: 370px;
   width: 100%;
   background-color: #ebebeb; }
+
+.conference-locations {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffae00; }
+  .conference-locations h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .conference-locations h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .conference-locations h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .conference-locations p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .conference-locations ul {
+    padding-bottom: 25px; }
+  .conference-locations li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .conference-locations h3 {
+    font-weight: 700; }
+  .conference-locations h4 {
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
