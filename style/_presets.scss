@@ -84,3 +84,77 @@ $dark-orange: #c47c09;
     width: 110%;
   }
 }
+@media only screen and (min-width: 768px) {
+  @mixin mobile-text {
+    padding: 59px 64px;
+    /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+      h2 {
+        padding-bottom: 20px;
+        color: $text-black;
+        font-family: $font-montserrat;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 1.2px;
+      }
+      h3 {
+        /*Use for medium titles on speakers tickets and sponsers*/
+        padding: 20px 0;
+        color: $text-black;
+        font-family: $font-montserrat;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 24px;
+        letter-spacing: 1px;
+      }
+      h4 {
+        /*Use for small titles on the home page and about page*/
+        padding-top: 15px;
+        color: $text-black;
+        font-family: $font-lora;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 1px;
+      }
+      p {
+        /*Used for the majority of the paragraph tags*/
+        padding-bottom: 20px;
+        color: $text-black;
+        font-family: $font-lora;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+      }
+      ul {
+        padding-bottom: 30px;
+      }
+      li {
+        /*Used for the list iteams on the sponser page*/
+        color: $text-black;
+        font-family: $font-montserrat;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.9px;
+        list-style: disc;
+        list-style-position: inside;
+      }
+  }
+  .white {
+    @include mobile-text;
+    h4 {
+      padding-bottom: 25px;
+    }
+  }
+  .grey {
+    @include mobile-text;
+    background-color: $grey;
+    img {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  .bump-over {
+    padding-left: 451px;
+  }
+}
