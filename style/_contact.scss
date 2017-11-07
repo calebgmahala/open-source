@@ -1,0 +1,23 @@
+.contact{
+  @include mobile-text;
+  background-color: $bar-white;
+input {
+  width:100%;
+}
+
+  .message{
+    height: 180px;
+  }
+input[type=submit]{
+  width: 168px;
+   height: 51px;
+   background-color: $orange;
+   float: right;
+   color: $text-white;
+   font-family: $font-montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0 30px;
+}
+}
