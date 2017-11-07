@@ -237,6 +237,79 @@ header {
 .hero-index h1 {
   font-size: 32px; }
 
+@media only screen and (min-width: 768px) {
+  header {
+    height: 114px; }
+    header h2 {
+      font-size: 18px;
+      width: 308px;
+      margin: 38px 0 0 3%; }
+    header nav {
+      height: auto;
+      width: 56%;
+      margin-top: 0;
+      margin-right: 0;
+      background-image: none; }
+      header nav ul {
+        display: flex;
+        justify-content: space-around;
+        opacity: 1;
+        position: static;
+        transition: none; }
+        header nav ul li {
+          display: inline-block;
+          visibility: visible;
+          height: auto; }
+          header nav ul li a {
+            width: 100%;
+            display: block;
+            color: #f5f5f5;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 114px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-decoration: none; }
+    header nav:hover ul {
+      display: flex;
+      justify-content: space-around;
+      transform: none;
+      width: auto; }
+      header nav:hover ul li {
+        display: inline-block;
+        background-color: inherit;
+        height: auto;
+        width: auto;
+        border-bottom: none; }
+        header nav:hover ul li a {
+          display: inline;
+          color: #f5f5f5;
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 114px;
+          letter-spacing: 1px;
+          text-align: center;
+          text-decoration: none; }
+        header nav:hover ul li a:hover {
+          color: #ffae00; }
+      header nav:hover ul li:last-of-type {
+        border-bottom: 0; }
+
+  .hero, .hero-index {
+    padding: 119px 0 206px 8%; }
+    .hero h1, .hero-index h1 {
+      margin-top: 150px;
+      margin-bottom: 50px;
+      font-size: 36px;
+      width: 80%; }
+
+  .hero-index h1 {
+    font-size: 72px; }
+
+  .is-on {
+    color: #ffae00 !important; } }
 .tickets {
   display: block;
   height: 200px;
@@ -543,7 +616,7 @@ header {
     width: 60%; }
   .sponsers .mill {
     height: 100%;
-    width: 100%; }
+    width: 91%; }
 
 footer {
   background-color: #313131;
