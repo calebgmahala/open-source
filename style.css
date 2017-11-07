@@ -158,50 +158,18 @@ table {
     padding: 59px 64px;
     /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
     .white h2 {
-      padding-bottom: 20px;
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 24px;
-      letter-spacing: 1.2px; }
+      padding-bottom: 20px; }
     .white h3 {
       /*Use for medium titles on speakers tickets and sponsers*/
-      padding: 20px 0;
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 21px;
-      line-height: 24px;
-      letter-spacing: 1px; }
+      padding: 20px 0; }
     .white h4 {
       /*Use for small titles on the home page and about page*/
-      padding-top: 15px;
-      color: #101010;
-      font-family: "Lora", serif;
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 32px;
-      letter-spacing: 1px; }
+      padding-top: 15px; }
     .white p {
       /*Used for the majority of the paragraph tags*/
-      padding-bottom: 20px;
-      color: #101010;
-      font-family: "Lora", serif;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0.8px; }
+      padding-bottom: 20px; }
     .white ul {
       padding-bottom: 30px; }
-    .white li {
-      /*Used for the list iteams on the sponser page*/
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-size: 18px;
-      line-height: 36px;
-      letter-spacing: 0.9px;
-      list-style: disc;
-      list-style-position: inside; }
     .white h4 {
       padding-bottom: 25px; }
 
@@ -210,50 +178,18 @@ table {
     /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
     background-color: #ebebeb; }
     .grey h2 {
-      padding-bottom: 20px;
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 24px;
-      letter-spacing: 1.2px; }
+      padding-bottom: 20px; }
     .grey h3 {
       /*Use for medium titles on speakers tickets and sponsers*/
-      padding: 20px 0;
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 21px;
-      line-height: 24px;
-      letter-spacing: 1px; }
+      padding: 20px 0; }
     .grey h4 {
       /*Use for small titles on the home page and about page*/
-      padding-top: 15px;
-      color: #101010;
-      font-family: "Lora", serif;
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 32px;
-      letter-spacing: 1px; }
+      padding-top: 15px; }
     .grey p {
       /*Used for the majority of the paragraph tags*/
-      padding-bottom: 20px;
-      color: #101010;
-      font-family: "Lora", serif;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0.8px; }
+      padding-bottom: 20px; }
     .grey ul {
       padding-bottom: 30px; }
-    .grey li {
-      /*Used for the list iteams on the sponser page*/
-      color: #101010;
-      font-family: "Montserrat", sans-serif;
-      font-size: 18px;
-      line-height: 36px;
-      letter-spacing: 0.9px;
-      list-style: disc;
-      list-style-position: inside; }
     .grey img {
       margin-left: 0;
       width: 100%; }
