@@ -1,6 +1,6 @@
-var box = document.getElementById("index-ticketbox");
 var body = document.getElementsByTagName("body")[0];
 function move() {
+	var box = document.getElementById("ticketbox");
 	if (window.innerWidth >= 768) {
 		var grey = document.getElementsByClassName("grey")[0].getBoundingClientRect();
 		if (body.scrollTop > 729 && grey.bottom > 345) {
