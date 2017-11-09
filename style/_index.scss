@@ -51,11 +51,31 @@
   }
 }
 @media only screen and (min-width: 768px) {
- .become-sponser
- h3 {
-   display: inline-block;
- }
- nav {
-   display: inline-block;
- }
+ .become-sponser {
+   p {
+     display: inline-block;
+   }
+   nav {
+     float: right;
+     width: 50%;
+   }
+}
+.sponsers {
+  img {
+    padding: 0 9% 20px 0;
+    height: 10%;
+    width: 10%;
+  }
+  .bigger {
+    height: 30%;
+    width: 20%;
+  }
+  .mill {
+    height: 30%;
+    width: 20%;
+  }
+  .bronze {
+    display: inline-block;
+  }
+}
 }

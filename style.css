@@ -696,11 +696,23 @@ header {
     width: 91%; }
 
 @media only screen and (min-width: 768px) {
-  .become-sponser
-  h3 {
+  .become-sponser p {
     display: inline-block; }
+  .become-sponser nav {
+    float: right;
+    width: 50%; }
 
-  nav {
+  .sponsers img {
+    padding: 0 9% 20px 0;
+    height: 10%;
+    width: 10%; }
+  .sponsers .bigger {
+    height: 30%;
+    width: 20%; }
+  .sponsers .mill {
+    height: 30%;
+    width: 20%; }
+  .sponsers .bronze {
     display: inline-block; } }
 footer {
   background-color: #313131;
