@@ -837,4 +837,63 @@ footer {
     text-align: center;
     margin: 30px 0 30px; }
 
+.sponsorship {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
+  .sponsorship h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .sponsorship h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .sponsorship h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .sponsorship p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .sponsorship ul {
+    padding-bottom: 25px; }
+  .sponsorship li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
+input[type=submit] {
+  width: 168px;
+  height: 51px;
+  background-color: #ffae00;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
