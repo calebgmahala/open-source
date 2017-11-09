@@ -1,32 +1,53 @@
-var body = document.getElementsByTagName("body")[0];
-function indexMove() {
-	var box = document.getElementById("index-ticketbox");
+function move() {
 	if (window.innerWidth >= 768) {
-		var grey = document.getElementsByClassName("grey")[0].getBoundingClientRect();
-		if (body.scrollTop > 729 && grey.bottom > 345) {
-			box.style.opacity = "1";
-			box.style.position = "fixed";
-			box.style.top = "60px";
-			box.style.left = "90px";
-			box.style.margin = "0";
-		} else if (grey.bottom <= 345 && grey.bottom >= 285) {
-			var opacity = ((grey.bottom - 285)/6)/10;
-			var top = (60-(345 - grey.bottom))+"px";
-			box.style.position = "fixed";
-			box.style.top = top;
-			box.style.left = "90px";
-			box.style.margin = "0";
-			box.style.opacity = opacity
-		} else {
-			box.style.position = "static";
-			box.style.top = "0";
-			box.style.left = "0";
-			box.style.margin = "80px 0 0 90px";
+		if (window.location.href=="file:///Users/cgmahala171/Documents/assignments_cset/open-source/index.html") {
+			var tops = document.getElementsByTagName("header")[0].getBoundingClientRect();
+			var box = document.getElementsByClassName("tickets")[0];
+			var bottom = document.getElementsByClassName("grey")[0].getBoundingClientRect();
+			if (tops.bottom < (-544) && bottom.bottom > 345) {
+				box.classList.add("tickets-fixed");
+				box.style.top = "60px";
+				box.style.opacity = "1";
+			} else if (bottom.bottom <= 345 && bottom.bottom >= 285) {
+				box.classList.add("tickets-fixed");
+				var opacity = ((bottom.bottom - 285)/6)/10;
+				var top = (60-(345 - bottom.bottom))+"px";
+				box.style.top = top;
+				box.style.opacity = opacity;
+			} else {
+				box.classList.remove("tickets-fixed");
+				box.style.top = "0";
+				box.style.opacity = "1";
+			}
+		}
+
+		//-----------------------------------------
+
+		if (window.location.href=="file:///Users/cgmahala171/Documents/assignments_cset/open-source/about.html") {
+			var tops = document.getElementsByTagName("header")[0].getBoundingClientRect();
+			var box = document.getElementsByClassName("tickets")[0];
+			var bottom = document.getElementsByClassName("contact")[0].getBoundingClientRect();
+			if (tops.bottom < (-544) && bottom.bottom > 350) {
+				box.classList.add("tickets-fixed");
+				box.style.top = "60px";
+				box.style.opacity = "1";
+			} else if (bottom.bottom <= 350 && bottom.bottom >= 290) {
+				box.classList.add("tickets-fixed");
+				var opacity = ((bottom.bottom - 290)/6)/10;
+				var top = (60-(350 - bottom.bottom))+"px";
+				box.style.top = top;
+				box.style.opacity = opacity
+			} else {
+				box.classList.remove("tickets-fixed");
+				box.style.top = "0";
+				box.style.opacity = "1";
+			}
 		}
 	}
 }
 function test() {
-	console.log(body.scrollTop);
-	console.log(document.getElementsByClassName("grey")[0].getBoundingClientRect());
+	console.log(window.location);
+	console.log(document.getElementsByTagName("header")[0].getBoundingClientRect());
+	console.log(document.getElementsByClassName("contact")[0].getBoundingClientRect());
 }
-setInterval (indexMove, 1);
+setInterval (move, 1);
