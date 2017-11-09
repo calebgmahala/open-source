@@ -27,6 +27,6 @@ function move() {
 }
 function test() {
 	console.log(body.scrollTop);
-	console.log(document.getElementsByClassName("grey")[0].getBoundingClientRect());
+	console.log(document.getElementsByClassName("conference-locations")[0].getBoundingClientRect());
 }
 setInterval (move, 1);
