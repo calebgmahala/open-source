@@ -896,4 +896,618 @@ input[type=submit] {
   font-weight: bold;
   text-align: center; }
 
+.beforefirstsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .beforefirstsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .beforefirstsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .beforefirstsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .beforefirstsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .beforefirstsection ul {
+    padding-bottom: 25px; }
+  .beforefirstsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
+.firstsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .firstsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .firstsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .firstsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .firstsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .firstsection ul {
+    padding-bottom: 25px; }
+  .firstsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .firstsection .sessioncolor {
+    color: #ffae00; }
+
+.secondsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .secondsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .secondsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .secondsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .secondsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .secondsection ul {
+    padding-bottom: 25px; }
+  .secondsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .secondsection .sessioncolor {
+    color: #ffae00; }
+
+.thirdsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .thirdsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .thirdsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .thirdsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .thirdsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .thirdsection ul {
+    padding-bottom: 25px; }
+  .thirdsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .thirdsection .sessioncolor {
+    color: #ffae00; }
+
+.lightingtalks {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .lightingtalks h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .lightingtalks h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .lightingtalks h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .lightingtalks p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .lightingtalks ul {
+    padding-bottom: 25px; }
+  .lightingtalks li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
+.fourthsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .fourthsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .fourthsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .fourthsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .fourthsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .fourthsection ul {
+    padding-bottom: 25px; }
+  .fourthsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .fourthsection .sessioncolor {
+    color: #ffae00; }
+
+.fifthsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .fifthsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .fifthsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .fifthsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .fifthsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .fifthsection ul {
+    padding-bottom: 25px; }
+  .fifthsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .fifthsection .sessioncolor {
+    color: #ffae00; }
+
+.sixthsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .sixthsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .sixthsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .sixthsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .sixthsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .sixthsection ul {
+    padding-bottom: 25px; }
+  .sixthsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .sixthsection .sessioncolor {
+    color: #ffae00; }
+
+.seventhsection {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .seventhsection h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .seventhsection h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .seventhsection h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .seventhsection p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .seventhsection ul {
+    padding-bottom: 25px; }
+  .seventhsection li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .seventhsection .sessioncolor {
+    color: #ffae00; }
+
+.closingkeynote {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .closingkeynote h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .closingkeynote h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .closingkeynote h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .closingkeynote p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .closingkeynote ul {
+    padding-bottom: 25px; }
+  .closingkeynote li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
+.prizedrawing {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ffffff; }
+  .prizedrawing h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .prizedrawing h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .prizedrawing h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .prizedrawing p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .prizedrawing ul {
+    padding-bottom: 25px; }
+  .prizedrawing li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
+.afterparty {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  background-color: #ebebeb; }
+  .afterparty h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .afterparty h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .afterparty h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .afterparty p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .afterparty ul {
+    padding-bottom: 25px; }
+  .afterparty li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+
 /*# sourceMappingURL=style.css.map */
