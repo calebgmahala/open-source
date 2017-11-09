@@ -1,0 +1,13 @@
+.sponsorship{
+  @include mobile-text;
+}
+input[type=submit]{
+  width: 168px;
+   height: 51px;
+   background-color: $orange;
+   color: $text-white;
+   font-family: $font-montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
