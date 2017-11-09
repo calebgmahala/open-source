@@ -1,0 +1,69 @@
+.beforefirstsection{
+  @include mobile-text;
+  background-color: $bar-white;
+}
+.firstsection{
+  @include mobile-text;
+  background-color:$grey;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.secondsection{
+  @include mobile-text;
+  background-color: $bar-white;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.thirdsection{
+  @include mobile-text;
+  background-color: $grey;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.lightingtalks{
+  @include mobile-text;
+  background-color: $bar-white;
+}
+.fourthsection{
+  @include mobile-text;
+  background-color: $grey;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.fifthsection{
+  @include mobile-text;
+  background-color: $bar-white;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.sixthsection{
+  @include mobile-text;
+  background-color: $grey;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.seventhsection{
+  @include mobile-text;
+  background-color: $bar-white;
+  .sessioncolor{
+    color:$orange;
+  }
+}
+.closingkeynote{
+  @include mobile-text;
+  background-color: $grey;
+}
+.prizedrawing{
+  @include mobile-text;
+  background-color: $bar-white;
+}
+.afterparty{
+  @include mobile-text;
+  background-color: $grey;
+}
