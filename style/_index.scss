@@ -66,16 +66,20 @@
     height: 10%;
     width: 10%;
   }
+  div {
+    display: inline-block;
+    width: 40%;
+  }
+  .silver {
+    display: block;
+    width: 80%;
+  }
   .bigger {
     height: 30%;
-    width: 20%;
+    width: 40%;
   }
   .mill {
-    height: 30%;
-    width: 20%;
-  }
-  .bronze {
-    display: inline-block;
+    height: 130%;
   }
 }
 }
