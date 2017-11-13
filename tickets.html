@@ -35,15 +35,15 @@
   </section>
   <!-- article -->
   <article class="tickets-text">
-    <p>Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skill levels and featuring case studies, best practices, code-alongs and more.
+    <div><p>Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skill levels and featuring case studies, best practices, code-alongs and more.
     </p>
     <h3>The Answer to Everything Ticket</h3>
     <h3 class="money">$42</h3>
     <p>This ticket is the answer to everything. It grants you access to the vendor hall, all talks and presentations, and let’s your grow some courage and submit a lightning talk! Plus, this gets you a fully functional t-shirt, another tote bag that you probably don’t need which happens to be full of some cool conference swag, and it gets you access to breakfast elevensies, lunch, afternoon tea, and the oh-so-happening CPOSC afterparty. All that goodness and it’s only $42.
     </p>
     <p>Sales end on November 4
-    </p>
-    <form>
+    </p></div>
+    <form class="atet">
         <select name="atet" size="1">
           <option value="0">0</option>
           <option value="1">1</option>
@@ -56,13 +56,13 @@
           <option value="8">8</option>
         </select>
     </form>
-    <h3>The Open Access Ticket</h3>
+    <div><h3>The Open Access Ticket</h3>
     <h3 class="money">$0</h3>
     <p>We believe that information and access to it should be open, free and shared. The Open Access ticket program is an embodiment of that notion. Open Access tickets get you the same exact conference experience as the “Answer to Everything” ticket, but you get it all for absolutely no cost. These tickets operate like a “take-a-number” line at the deli counter. Any attendee is welcomed to request an Open Access ticket for any reason, no questions asked. Upon making your request, if there have been Open Access donations by other conference attendee’s, you will receive a ticket at no cost! If there are no funds in the donor pool, then you will until a donation is made. If not enough donations come in, prior to the conference, you will be given an opportunity to purchase at the door.
     </p>
     <p>Sales end on November 4
-    </p>
-    <form>
+    </p></div>
+    <form class="oat">
       <select name="oat" size="1">
           <option value="0">0</option>
           <option value="1">1</option>
@@ -75,20 +75,21 @@
           <option value="8">8</option>
         </select>
     </form>
-    <h3>The Open Access for ALL Contributor Donation </h3>
+    <div><h3>The Open Access for ALL Contributor Donation </h3>
     <p>If you happen to believe that access to information (and especially Open Sourced information!) should be free, then here is your chance to help us enable that to happen at this very conference. For every donation of $42, or more to CPOSC, we’ll grant access to a person who couldn’t otherwise attend. These donations make it possible to offer our Open Access ticket initiative, as well as our free and discounted student ticket programs.
     </p>
     <p>Sales end on November 4
-    </p>
-    <form>
+    </p></div>
+    <form class="donate">
+      <input type="text" value="0" name="donate">
     </form>
-    <h3>College Student </h3>
+    <div><h3>College Student </h3>
     <h3 class="money">$10</h3>
     <p>This ticket is good for one admission to the vendor hall and all presentations. A valid student id will be checked at the event registration table prior to receiving your badge. Includes shirt and all the swag of the “Answer to Everything”. Meal tickets are not included with this ticket, but can be purchased at the event registration table on the day of the event.
     </p>
     <p>Sales end on November 4
-    </p>
-    <form>
+    </p></div>
+    <form class="cs">
       <select name="cs" size="1">
           <option value="0">0</option>
           <option value="1">1</option>
@@ -101,15 +102,15 @@
           <option value="8">8</option>
         </select>
     </form>
-    <h3>High School Student</h3>
+    <div><h3>High School Student</h3>
     <h3 class="money">$0</h3>
     <p>New this year! With an ever growing number of high-school students getting into programming, we are happy to welcome and encourage a small number of HS-aged students to attend the 9th annual CPOSC! By welcoming aspiring programmers, we hope that this conference will allow them to get a taste for what a professional future in the open source technology sectore might be like.
     </p>
     <p>Parents and students, please note: This is a professional conference featuring highly technical talks being presented by individuals with skilled and diverse technical backgrounds. The content is not expected to be offered at a “high school level” and attendees are encouraged to have an active interest in the field of computer science or hardware as to be better equipped for the experience.
     </p>
     <p>Sales end on November 4
-    </p>
-    <form>
+    </p></div>
+    <form class="hss">
       <select name="hss" size="1">
           <option value="0">0</option>
           <option value="1">1</option>
@@ -125,7 +126,8 @@
   </article>
   <!-- total -->
   <section class="total">
-    <div>Total</div>
+    <h3>Total:</h3>
+    <div class="output"></div>
     <form>
       <input type="submit" value="Purchase">
     </form>
@@ -157,5 +159,6 @@ Lancaster, PA 17602</p>
     <h3>Connect with CPOSC</h3>
     <h3>#CPOSC2017</h3>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

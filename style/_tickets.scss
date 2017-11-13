@@ -1,5 +1,7 @@
 .tickets-text {
   @include mobile-text;
+  padding: 25px 0;
+  margin: 0 5%;
   border-bottom: 2px solid $orange;
   .money {
     color: $orange;
@@ -24,17 +26,46 @@
       line-height: 2.25;
       letter-spacing: 1.2px;
     }
+    input {
+      vertical-align: top;
+      height: 97%;
+      width: 88%;
+      padding-left: 10%;
+      border: 0;
+      background-color: white;
+      color: $text-black;
+      font-family: $font-montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 2.25;
+      letter-spacing: 1.2px;
+    }
   }
 }
 .total {
   @include mobile-text;
-  margin: 0 10%;
-  form {
-
+  h3 {
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 300px;
+  }
+  div {
+    display: inline-block;
+    height: 54px;
+    width: 83px;
+    border: 2px solid black;
+    color: $text-black;
+    font-family: $font-montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2.25;
+    letter-spacing: 1.2px;
   }
   input {
     height: 59px;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 0;
     background-color: $orange;
     color: $text-white;
@@ -44,5 +75,18 @@
 	  line-height: 59px;
   	letter-spacing: 0.8px;
 	  text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .tickets-text {
+    div {
+      display: inline-block;
+      width: 80%;
+      padding-right: 5%;
+    }
+    form {
+      display: inline-block;
+      vertical-align: top;
+    }
   }
 }
