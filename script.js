@@ -51,3 +51,11 @@ function test() {
 	console.log(document.getElementsByClassName("contact")[0].getBoundingClientRect());
 }
 setInterval (move, 1);
+////map///
+function initMap() {
+	var location = {lat: 40.037875, lng: -76.305514};
+	var map = new google.maps.Map(document.getElementById("map"), {
+		zoom: 4,
+		center: location
+	});
+}
