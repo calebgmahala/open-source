@@ -783,6 +783,10 @@ footer {
   width: 100%;
   background-color: #ebebeb; }
 
+iframe {
+  height: 370px;
+  width: 100%; }
+
 .conference-locations {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
