@@ -1,13 +1,49 @@
 .sponsorship{
   @include mobile-text;
+  .table {
+    display: none;
+  }
+  .sponsers-main {
+    display: none;
+  }
+}
+.sponsorship-details {
+  display: none;
 }
 input[type=submit]{
   width: 168px;
-   height: 51px;
-   background-color: $orange;
-   color: $text-white;
-   font-family: $font-montserrat;
+  height: 51px;
+  background-color: $orange;
+  border: 0;
+  color: $text-white;
+  font-family: $font-montserrat;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .sponsorship {
+    .table {
+      display: block;
+    }
+    .sponsers-mobile {
+      display: none;
+    }
+    .sponsers-main {
+      display: inline-block;
+      font-style: italic;
+      width: 50%;
+    }
+  }
+}
+.sponsorship-details {
+  @include mobile-text;
+  h4 {
+    font-size: 18px;
+  }
+  display: block;
+}
+input[type=submit]{
+  display: inline-block;
+  float: right;
 }
