@@ -66,6 +66,19 @@ function move() {
 				box.style.opacity = "1";
 			}
 		}
+
+		//-----------------------------------------
+
+	}
+}
+function calculate() {
+	if (window.location.href=="file:///Users/cgmahala171/Documents/assignments_cset/open-source/tickets.html") {
+		var form1 = document.getElementsByClassName("atet")[0].elements.namedItem("atet");
+		var form2 = document.getElementsByClassName("donate")[0].elements.namedItem("donate");
+		var form3 = document.getElementsByClassName("cs")[0].elements.namedItem("cs");
+		var value = ((form1.value * 42) + parseInt(form2.value) + (form3.value * 10));
+		var out = document.getElementsByClassName("output")[0];
+		out.innerHTML = ("$ "+value);
 	}
 }
 function test() {
@@ -74,3 +87,4 @@ function test() {
 	console.log(document.getElementsByClassName("afterparty")[0].getBoundingClientRect());
 }
 setInterval (move, 1);
+setInterval (calculate, 1);
