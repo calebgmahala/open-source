@@ -1262,6 +1262,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .firstsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .secondsection {
@@ -1324,6 +1325,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .secondsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .thirdsection {
@@ -1386,6 +1388,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .thirdsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .lightingtalks {
@@ -1508,6 +1511,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .fourthsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .fifthsection {
@@ -1570,6 +1574,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .fifthsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .sixthsection {
@@ -1632,6 +1637,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .sixthsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .seventhsection {
@@ -1694,6 +1700,7 @@ iframe {
     line-height: 1.5;
     letter-spacing: 0.8px; }
   .seventhsection .sessioncolor {
+    display: inline-block;
     color: #ffae00; }
 
 .closingkeynote {
@@ -1877,6 +1884,7 @@ iframe {
     letter-spacing: 0.8px; }
 
 .goldcarrot {
+  vertical-align: top;
   color: #ffae00;
   float: right;
   font-size: 40px; }
