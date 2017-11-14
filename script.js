@@ -125,3 +125,16 @@ setInterval (calculate, 1);
 function hideIt(cls){
 	document.getElementsByClassName(cls)[0].classList.toggle('none');
 }
+//countdown
+  var nextCPOSC = new Date(2018, 10, 1).getTime();
+  var date = new Date().getTime();
+  var x = nextCPOSC - date;
+  var days = Math.floor(x / (1000 * 60 * 60 * 24));
+  var hundred = Math.floor(days / 100);
+  var one = days % 100;
+  var ten = Math.floor(one / 10);
+  one = one % 10;
+
+  document.getElementById("hundreds").innerHTML = hundred;
+  document.getElementById("tens").innerHTML = ten;
+  document.getElementById("ones").innerHTML = one;
