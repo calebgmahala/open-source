@@ -1,22 +1,22 @@
 function index() {
 	if (window.innerWidth >= 768) {
-		var tops = document.getElementsByTagName("header")[0].getBoundingClientRect();
-		var box = document.getElementsByClassName("tickets")[0];
-		var bottom = document.getElementsByClassName("grey")[0].getBoundingClientRect();
-		if (tops.bottom < (-544) && bottom.bottom > 345) {
-			box.classList.add("tickets-fixed");
-			box.style.top = "60px";
-			box.style.opacity = "1";
-		} else if (bottom.bottom <= 345 && bottom.bottom >= 285) {
-			box.classList.add("tickets-fixed");
-			var opacity = ((bottom.bottom - 285)/6)/10;
-			var top = (60-(345 - bottom.bottom))+"px";
-			box.style.top = top;
-			box.style.opacity = opacity;
-		} else {
-			box.classList.remove("tickets-fixed");
-			box.style.top = "0";
-			box.style.opacity = "1";
+			var tops = document.getElementsByTagName("header")[0].getBoundingClientRect();
+			var box = document.getElementsByClassName("tickets")[0];
+			var bottom = document.getElementsByClassName("grey")[0].getBoundingClientRect();
+			if (tops.bottom < (-544) && bottom.bottom > 345) {
+				box.classList.add("tickets-fixed");
+				box.style.top = "60px";
+				box.style.opacity = "1";
+			} else if (bottom.bottom <= 345 && bottom.bottom >= 285) {
+				box.classList.add("tickets-fixed");
+				var opacity = ((bottom.bottom - 285)/6)/10;
+				var top = (60-(345 - bottom.bottom))+"px";
+				box.style.top = top;
+				box.style.opacity = opacity;
+			} else {
+				box.classList.remove("tickets-fixed");
+				box.style.top = "0";
+				box.style.opacity = "1";
 		}
 	}
 }
@@ -106,7 +106,6 @@ function calculate() {
 		var value = ((form1.value * 42) + parseInt(form2.value) + (form3.value * 10));
 		var out = document.getElementsByClassName("output")[0];
 		out.innerHTML = ("$ "+value);
-}
 function runConstant() {
 	if (document.getElementById('index')) {
 		index();
@@ -125,4 +124,21 @@ function test() {
 	console.log(document.getElementsByTagName("header")[0].getBoundingClientRect());
 	console.log(document.getElementsByClassName("sponsorship-details")[0].getBoundingClientRect());
 }
-setInterval (runConstant, 1);
+  setInterval (runConstant, 1);
+//hide content//
+function hideIt(cls){
+	document.getElementsByClassName(cls)[0].classList.toggle('none');
+}
+//countdown
+  var nextCPOSC = new Date(2018, 10, 1).getTime();
+  var date = new Date().getTime();
+  var x = nextCPOSC - date;
+  var days = Math.floor(x / (1000 * 60 * 60 * 24));
+  var hundred = Math.floor(days / 100);
+  var one = days % 100;
+  var ten = Math.floor(one / 10);
+  one = one % 10;
+
+  document.getElementById("hundreds").innerHTML = hundred;
+  document.getElementById("tens").innerHTML = ten;
+  document.getElementById("ones").innerHTML = one;

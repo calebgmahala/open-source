@@ -1921,4 +1921,106 @@ iframe {
 .none {
   display: none; }
 
+.counter {
+  width: 280px;
+  height: 178px;
+  background-color: #ffae00;
+  margin: 0 auto;
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
+  .counter h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .counter h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .counter h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .counter p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .counter ul {
+    padding-bottom: 25px; }
+  .counter li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .counter table {
+    width: 100%; }
+  .counter td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
+  .counter p {
+    color: #ffffff;
+    font-size: 18px; }
+
+.counterBlock {
+  width: 83px;
+  height: 83px;
+  background-color: #ffffff;
+  display: inline-block;
+  font-size: 46px;
+  text-align: center; }
+
+.counterBlock h2 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  line-height: 83px;
+  font-size: 46px; }
+
+.counter_ticket_container {
+  position: relative;
+  top: -50px; }
+
+@media only screen and (min-width: 768px) {
+  .counterNumbers {
+    display: inline-block;
+    padding-top: 20px; }
+
+  .ptext {
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 50px;
+    letter-spacing: 1.5px; }
+
+  .counter {
+    width: 744px;
+    height: 145px;
+    font-size: 50px; } }
+
 /*# sourceMappingURL=style.css.map */
