@@ -6,6 +6,7 @@
   @include mobile-text;
   background-color:$grey;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -13,6 +14,7 @@
   @include mobile-text;
   background-color: $bar-white;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -20,6 +22,7 @@
   @include mobile-text;
   background-color: $grey;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -31,6 +34,7 @@
   @include mobile-text;
   background-color: $grey;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -38,6 +42,7 @@
   @include mobile-text;
   background-color: $bar-white;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -45,6 +50,7 @@
   @include mobile-text;
   background-color: $grey;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -52,6 +58,7 @@
   @include mobile-text;
   background-color: $bar-white;
   .sessioncolor{
+    display: inline-block;
     color:$orange;
   }
 }
@@ -68,6 +75,7 @@
   background-color: $grey;
 }
 .goldcarrot{
+  vertical-align: top;
   color: $orange;
   float: right;
   font-size: 40px;
