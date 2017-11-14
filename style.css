@@ -851,6 +851,12 @@ iframe {
   height: 370px;
   width: 100%; }
 
+@media only screen and (min-width: 768px) {
+  .greybox {
+    vertical-align: top;
+    display: inline-block;
+    width: 59%;
+    height: 563px; } }
 .conference-locations {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
@@ -915,6 +921,11 @@ iframe {
   .conference-locations h4 {
     font-size: 18px; }
 
+@media only screen and (min-width: 768px) {
+  .conference-locations {
+    display: inline-block;
+    width: 30%;
+    height: 513px; } }
 .contact {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
