@@ -119,3 +119,7 @@ function test() {
 	console.log(document.getElementsByTagName("header")[0].getBoundingClientRect());
 	console.log(document.getElementsByClassName("sponsorship-details")[0].getBoundingClientRect());
 }
+//hide content//
+function hideIt(cls){
+	document.getElementsByClassName(cls)[0].classList.toggle('none');
+}
