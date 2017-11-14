@@ -3,7 +3,7 @@ function index() {
 			var tops = document.getElementsByTagName("header")[0].getBoundingClientRect();
 			var box = document.getElementsByClassName("tickets")[0];
 			var bottom = document.getElementsByClassName("grey")[0].getBoundingClientRect();
-			if (tops.bottom < (-544) && bottom.bottom > 345) {
+			if (tops.bottom < (-845) && bottom.bottom > 345) {
 				box.classList.add("tickets-fixed");
 				box.style.top = "60px";
 				box.style.opacity = "1";
@@ -70,7 +70,7 @@ function sponsers() {
 		var box = document.getElementsByClassName("tickets")[0];
 		var bottom = document.getElementsByClassName("table")[0].getBoundingClientRect();
 		var bottom2 = document.getElementsByClassName("sponsorship-details")[0].getBoundingClientRect();
-		if ((tops.bottom < (-544) && bottom.bottom > 780) || (bottom.bottom < -100 && bottom2.bottom > 300)) {
+		if ((tops.bottom < (-615) && bottom.bottom > 780) || (bottom.bottom < -100 && bottom2.bottom > 300)) {
 			box.classList.add("tickets-fixed");
 			box.style.top = "60px";
 			box.style.opacity = "1";
@@ -106,6 +106,7 @@ function calculate() {
 		var value = ((form1.value * 42) + parseInt(form2.value) + (form3.value * 10));
 		var out = document.getElementsByClassName("output")[0];
 		out.innerHTML = ("$ "+value);
+	}
 function runConstant() {
 	if (document.getElementById('index')) {
 		index();
