@@ -117,7 +117,7 @@ function runConstant() {
 	} else if (document.getElementById('sponsers')) {
 		sponsers();
 	} else {
-		//calculate();
+		calculate();
 	}
 }
 function test() {
