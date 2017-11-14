@@ -121,3 +121,7 @@ function test() {
 }
 setInterval (move, 1);
 setInterval (calculate, 1);
+//hide content//
+function hideIt(cls){
+	document.getElementsByClassName(cls)[0].classList.toggle('none');
+}
