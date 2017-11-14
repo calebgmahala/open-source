@@ -18,7 +18,6 @@ function index() {
 			box.style.top = "0";
 			box.style.opacity = "1";
 		}
-		setInterval (index, 1);
 	}
 }
 function about() {
@@ -41,7 +40,6 @@ function about() {
 			box.style.top = "0";
 			box.style.opacity = "1";
 		}
-		setInterval (about, 1);
 	}
 }
 function speakers() {
@@ -64,7 +62,6 @@ function speakers() {
 			box.style.top = "0";
 			box.style.opacity = "1";
 		}
-		setInterval (speakers, 1);
 	}
 }
 function sponsers() {
@@ -100,23 +97,32 @@ function sponsers() {
 			box.style.top = "0";
 			box.style.opacity = "1";
 		}
-		setInterval (sponsers, 1);
 	}
 }
 function calculate() {
-	if (window.location.href=="file:///Users/cgmahala171/Documents/assignments_cset/open-source/tickets.html") {
 		var form1 = document.getElementsByClassName("atet")[0].elements.namedItem("atet");
 		var form2 = document.getElementsByClassName("donate")[0].elements.namedItem("donate");
 		var form3 = document.getElementsByClassName("cs")[0].elements.namedItem("cs");
 		var value = ((form1.value * 42) + parseInt(form2.value) + (form3.value * 10));
 		var out = document.getElementsByClassName("output")[0];
 		out.innerHTML = ("$ "+value);
-		setInterval (calculate, 1);
+}
+function runConstant() {
+	if (document.getElementById('index')) {
+		index();
+	} else if (document.getElementById('about')) {
+		about();
+	} else if (document.getElementById('speakers')) {
+		speakers();
+	} else if (document.getElementById('sponsers')) {
+		sponsers();
+	} else {
+		//calculate();
 	}
 }
 function test() {
-	console.log(window.location);
+	console.log(window.location.pathname);
 	console.log(document.getElementsByTagName("header")[0].getBoundingClientRect());
 	console.log(document.getElementsByClassName("sponsorship-details")[0].getBoundingClientRect());
 }
-setInterval (move, 1);
+setInterval (runConstant, 1);
