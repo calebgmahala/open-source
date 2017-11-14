@@ -10,7 +10,7 @@
 .sponsorship-details {
   display: none;
 }
-input[type=submit]{
+.Sponsor-CPOSC[type=submit]{
   width: 168px;
   height: 51px;
   background-color: $orange;
@@ -43,7 +43,7 @@ input[type=submit]{
   }
   display: block;
 }
-input[type=submit]{
+.Sponsor-CPOSC[type=submit]{
   display: inline-block;
-  float: right;
+  //float: right;
 }

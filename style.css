@@ -637,7 +637,11 @@ header {
     padding-right: 5%; }
   .tickets-text form {
     display: inline-block;
-    vertical-align: top; } }
+    vertical-align: top; }
+
+  .total input {
+    width: 168px;
+    height: 51px; } }
 .become-sponser {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/ }
@@ -1052,7 +1056,7 @@ iframe {
 .sponsorship-details {
   display: none; }
 
-input[type=submit] {
+.Sponsor-CPOSC[type=submit] {
   width: 168px;
   height: 51px;
   background-color: #ffae00;
@@ -1134,9 +1138,8 @@ input[type=submit] {
   .sponsorship-details h4 {
     font-size: 18px; }
 
-input[type=submit] {
-  display: inline-block;
-  float: right; }
+.Sponsor-CPOSC[type=submit] {
+  display: inline-block; }
 
 .beforefirstsection {
   padding: 25px 5%;
