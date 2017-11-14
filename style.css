@@ -446,10 +446,6 @@ header {
       background: linear-gradient(white, lightgrey); }
     .tickets nav:active {
       background: linear-gradient(white, grey); } }
-.goldcarrot {
-  color: #ffae00;
-  float: right; }
-
 .tickets-text {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
@@ -1143,7 +1139,8 @@ iframe {
     font-size: 18px; }
 
 .Sponsor-CPOSC[type=submit] {
-  display: inline-block; }
+  display: inline-block;
+  float: right; }
 
 .beforefirstsection {
   padding: 25px 5%;
@@ -1878,5 +1875,13 @@ iframe {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.8px; }
+
+.goldcarrot {
+  color: #ffae00;
+  float: right;
+  font-size: 40px; }
+
+.none {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
