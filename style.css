@@ -847,9 +847,10 @@ footer {
     padding: 75px 5% 0;
     height: 300px; }
     footer div {
+      padding-right: 20%;
       vertical-align: top;
       display: inline-block;
-      width: 49%;
+      width: 29%;
       height: 100%; }
     footer .cwc {
       vertical-align: top; }
