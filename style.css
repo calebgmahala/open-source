@@ -97,6 +97,16 @@ table {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .white table {
+    width: 100%; }
+  .white td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .white h4 {
     padding-bottom: 25px; }
 
@@ -149,6 +159,16 @@ table {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .grey table {
+    width: 100%; }
+  .grey td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .grey img {
     margin-left: -5%;
     width: 110%; }
@@ -477,6 +497,16 @@ header {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .tickets-text table {
+    width: 100%; }
+  .tickets-text td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .tickets-text .money {
     color: #ffae00;
     padding-top: 0;
@@ -560,6 +590,16 @@ header {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .total table {
+    width: 100%; }
+  .total td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .total h3 {
     vertical-align: top;
     display: inline-block;
@@ -646,6 +686,16 @@ header {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .become-sponser table {
+    width: 100%; }
+  .become-sponser td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .become-sponser nav {
     height: 62px;
     width: 80%;
@@ -715,6 +765,16 @@ header {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .sponsers table {
+    width: 100%; }
+  .sponsers td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .sponsers h3 {
     padding-top: 30px;
     color: #ffae00;
@@ -836,6 +896,16 @@ iframe {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .conference-locations table {
+    width: 100%; }
+  .conference-locations td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .conference-locations h3 {
     font-weight: 700; }
   .conference-locations h4 {
@@ -890,6 +960,16 @@ iframe {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .contact table {
+    width: 100%; }
+  .contact td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .contact input {
     width: 100%; }
   .contact .message {
@@ -954,16 +1034,109 @@ iframe {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .sponsorship table {
+    width: 100%; }
+  .sponsorship td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
+  .sponsorship .table {
+    display: none; }
+  .sponsorship .sponsers-main {
+    display: none; }
+
+.sponsorship-details {
+  display: none; }
 
 input[type=submit] {
   width: 168px;
   height: 51px;
   background-color: #ffae00;
+  border: 0;
   color: #f5f5f5;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  .sponsorship .table {
+    display: block; }
+  .sponsorship .sponsers-mobile {
+    display: none; }
+  .sponsorship .sponsers-main {
+    display: inline-block;
+    font-style: italic;
+    width: 50%; } }
+.sponsorship-details {
+  padding: 25px 5%;
+  /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
+  display: block; }
+  .sponsorship-details h2 {
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.2px; }
+  .sponsorship-details h3 {
+    /*Use for medium titles on speakers tickets and sponsers*/
+    padding: 15px 0;
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1px; }
+  .sponsorship-details h4 {
+    /*Use for small titles on the home page and about page*/
+    padding-top: 10px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px; }
+  .sponsorship-details p {
+    /*Used for the majority of the paragraph tags*/
+    padding-bottom: 15px;
+    color: #101010;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px; }
+  .sponsorship-details ul {
+    padding-bottom: 25px; }
+  .sponsorship-details li {
+    /*Used for the list iteams on the sponser page*/
+    color: #101010;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
+    list-style: disc;
+    list-style-position: inside; }
+  .sponsorship-details table {
+    width: 100%; }
+  .sponsorship-details td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
+  .sponsorship-details h4 {
+    font-size: 18px; }
+
+input[type=submit] {
+  display: inline-block;
+  float: right; }
 
 .beforefirstsection {
   padding: 25px 5%;
@@ -1014,6 +1187,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .beforefirstsection table {
+    width: 100%; }
+  .beforefirstsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
 
 .firstsection {
   padding: 25px 5%;
@@ -1064,6 +1247,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .firstsection table {
+    width: 100%; }
+  .firstsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .firstsection .sessioncolor {
     color: #ffae00; }
 
@@ -1116,6 +1309,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .secondsection table {
+    width: 100%; }
+  .secondsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .secondsection .sessioncolor {
     color: #ffae00; }
 
@@ -1168,6 +1371,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .thirdsection table {
+    width: 100%; }
+  .thirdsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .thirdsection .sessioncolor {
     color: #ffae00; }
 
@@ -1220,6 +1433,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .lightingtalks table {
+    width: 100%; }
+  .lightingtalks td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
 
 .fourthsection {
   padding: 25px 5%;
@@ -1270,6 +1493,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .fourthsection table {
+    width: 100%; }
+  .fourthsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .fourthsection .sessioncolor {
     color: #ffae00; }
 
@@ -1322,6 +1555,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .fifthsection table {
+    width: 100%; }
+  .fifthsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .fifthsection .sessioncolor {
     color: #ffae00; }
 
@@ -1374,6 +1617,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .sixthsection table {
+    width: 100%; }
+  .sixthsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .sixthsection .sessioncolor {
     color: #ffae00; }
 
@@ -1426,6 +1679,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .seventhsection table {
+    width: 100%; }
+  .seventhsection td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
   .seventhsection .sessioncolor {
     color: #ffae00; }
 
@@ -1478,6 +1741,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .closingkeynote table {
+    width: 100%; }
+  .closingkeynote td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
 
 .prizedrawing {
   padding: 25px 5%;
@@ -1528,6 +1801,16 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .prizedrawing table {
+    width: 100%; }
+  .prizedrawing td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
 
 .afterparty {
   padding: 25px 5%;
@@ -1578,5 +1861,15 @@ input[type=submit] {
     letter-spacing: 0.9px;
     list-style: disc;
     list-style-position: inside; }
+  .afterparty table {
+    width: 100%; }
+  .afterparty td {
+    max-width: 400px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px; }
 
 /*# sourceMappingURL=style.css.map */
