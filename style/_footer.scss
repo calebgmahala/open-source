@@ -23,3 +23,22 @@ p{
 
 }
 }
+@media only screen and (min-width: 768px) {
+  footer {
+    padding: 75px 5% 0;
+    height: 300px;
+    div {
+      vertical-align: top;
+      display: inline-block;
+      width: 49%;
+      height: 100%;
+    }
+    .cwc {
+      vertical-align: top;
+
+    }
+    .cpo {
+      padding-top: 70px;
+    }
+  }
+}
