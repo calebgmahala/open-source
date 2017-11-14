@@ -6,6 +6,11 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,700,800" rel="stylesheet">
   <title>Open Source</title>
+  <script>
+  function hideIt(cls){
+    document.getElementsByClassName(cls)[0].classList.toggle('none');
+  }
+  </script>
 </head>
 <body>
   <!-- header -->
@@ -53,6 +58,8 @@ Auditorium</p>
   <!-- first session -->
   <section class="firstsection bump-over">
   <h3 class="sessioncolor">FIRST SESSION</h3>
+  <div class="goldcarrot" onclick = "hideIt('div1')"> &#8964; </div>
+  <div class="div1">
   <p>9:20AM - 9:50AM</p>
   <h3>OMG How do I even Start an Open Source Project?</h3>
   <p>Don Schenck
@@ -63,6 +70,7 @@ Ware Center</p>
   <h3>NXDomain is Where it’s At</h3>
   <p>Thomas Delrue
 Ware Center</p>
+</div>
 </section>
 <!-- second session -->
 <section class="secondsection bump-over">

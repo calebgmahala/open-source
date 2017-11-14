@@ -426,6 +426,10 @@ header {
       background: linear-gradient(white, lightgrey); }
     .tickets nav:active {
       background: linear-gradient(white, grey); } }
+.goldcarrot {
+  color: #ffae00;
+  float: right; }
+
 .tickets-text {
   padding: 25px 5%;
   /*Used padding instead of margin so there wouldn't be an issue with seperation between colors and bottom borders*/
