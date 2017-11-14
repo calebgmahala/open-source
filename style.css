@@ -1139,7 +1139,8 @@ iframe {
     font-size: 18px; }
 
 .Sponsor-CPOSC[type=submit] {
-  display: inline-block; }
+  display: inline-block;
+  float: right; }
 
 .beforefirstsection {
   padding: 25px 5%;
